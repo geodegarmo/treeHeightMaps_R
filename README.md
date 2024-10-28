@@ -1,4 +1,4 @@
-# treeCanopyHeightMaps
+# Tree Canopy Height Maps
 <!DOCTYPE html>
 <html>
 <body>
