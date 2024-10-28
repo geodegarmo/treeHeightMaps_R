@@ -14,7 +14,7 @@
 
 <h2>GitHub Resources</h2>
 
-<p>A great resource for using basemaps in R to produce the interactive maps using leaflet, carto, and TESS-Laboratories:</p> 
+<p>A great resource for using basemaps in R to produce the interactive maps using Leaflet, Carto, and TESS-Laboratories:</p> 
 
 Leaflet:              https://github.com/Leaflet/Leaflet
 
