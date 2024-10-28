@@ -3,14 +3,14 @@
 <html>
 <body>
 
+<p>A place to create and share code of newly made maps of canopy tree heights.</p>
+
+<p>Meta and the World Resources Institute launched a global map of tree canopy height at a 1-meter resolution, allowing the detection of single trees on a global scale. Both the canopy height data and the models used to create the data are free and publicly available (Tolan, Couprie, et al. 2024). The maps were created using machine learning models on high-resolution worldwide Maxar satellite imagery. The details of the model used to create the data set are described in Tolan et al. (2024).</p>
+
 <h1>Working With RStudio</h1>
-
-<p>A place to store new maps of canopy tree heights </p>
-
 
 <p>Download R/RStudio at this link: https://posit.co/download/rstudio-desktop </p>
 
-<p>Meta and the World Resources Institute launched a global map of tree canopy height at a 1-meter resolution, allowing the detection of single trees on a global scale. Both the canopy height data and the models used to create the data are free and publicly available (Tolan, Couprie, et al. 2024). The maps were created using machine learning models on high-resolution worldwide Maxar satellite imagery. The details of the model used to create the data set are described in Tolan et al. (2024).</p>
 
 <h2>GitHub Resources</h2>
 
@@ -22,6 +22,8 @@ Carto:                https://github.com/TESS-Laboratory/chmloader
 
 TESS-Laboratories:    https://github.com/CartoDB/basemap-styles
 
+<h2>Docker</h2>
+Docker is a uniqiue software in that it allows for you to create a containerized fully bomb proof contained code with all the requirements packaged up into a single image.  
 
 <h2>References</h2>
 
