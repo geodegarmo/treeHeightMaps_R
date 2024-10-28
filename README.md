@@ -13,10 +13,14 @@
 <p>Meta and the World Resources Institute launched a global map of tree canopy height at a 1-meter resolution, allowing the detection of single trees on a global scale. Both the canopy height data and the models used to create the data are free and publicly available (Tolan, Couprie, et al. 2024). The maps were created using machine learning models on high-resolution worldwide Maxar satellite imagery. The details of the model used to create the data set are described in Tolan et al. (2024).</p>
 <h2>GitHub Resources for Carto Database </h2>
 
-<p>A great resource for using basemaps in R to produce the interactive maps using leaflet, carto, and TESS-Laboratories: 
-  https://github.com/Leaflet/Leaflet
-  https://github.com/TESS-Laboratory/chmloader
-  https://github.com/CartoDB/basemap-styles</p>
+<p>A great resource for using basemaps in R to produce the interactive maps using leaflet, carto, and TESS-Laboratories:</p> 
+
+Leaflet:              https://github.com/Leaflet/Leaflet
+
+Carto:                https://github.com/TESS-Laboratory/chmloader
+
+TESS-Laboratories:    https://github.com/CartoDB/basemap-styles
+
 
 <h2>References</h2>
 
