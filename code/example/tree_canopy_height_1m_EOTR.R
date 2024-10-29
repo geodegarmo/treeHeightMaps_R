@@ -1,4 +1,4 @@
-# 1. Packages
+# 1. Packages (Uncomment to install);
 #install.packages("devtools")
 #install.packages("pacman")
 
@@ -18,7 +18,7 @@ pacman::p_load(
   htmlwidgets
 )
 
-# Define buffer 
+# Define Region Using Lat/Long
 
 # 36.730918, -91.290021
 
@@ -34,7 +34,7 @@ city_coords <- sf::st_point(
       2, km
     )
   )
-# 3 GET TREE HEIGHT DATA 
+# 3 GET TREE HEIGHT DATA Using chm
 # ----------------------
 city_chm <- chmloader::download_chm(
   city_coords,
@@ -62,7 +62,7 @@ terra::plot(
   )
 )
 
-# 4. Street TILES
+# 4. Street TILES using CartoDB
 # ------------------
 
 city_bbox <- sf::st_bbox(
@@ -160,7 +160,7 @@ map <- ggplot(city_chm_df) +
 
 print(map)
 
-# 8. Interactive Map
+# 8. Interactive Map Using HTML Widgets
 #----------------------
 map_interactive <- terra::plet(
   x = city_chm_new,
