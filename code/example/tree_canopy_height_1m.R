@@ -18,7 +18,7 @@ pacman::p_load(
   htmlwidgets
 )
 
-# Define buffer 
+# Define Region in Lat/long
 
 # 59.911491 10.757933
 
