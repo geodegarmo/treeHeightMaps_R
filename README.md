@@ -25,6 +25,13 @@ TESS-Laboratories:    https://github.com/TESS-Laboratory/chmloader
 <h2>Docker</h2>
 Docker is a uniqiue software in that it allows for you to create a containerized fully unbreakable proof since the code is contained with a single image.  
 
+<h2>Getting Started</h2>
+
+Make a directory and then clone the environment.
+Clone the environment using git.
+
+`mkdir globalTreeHeight && git clone https://github.com/geodegarmo/treeHeightMaps_R.git`
+
 
 <h2>References</h2>
 
