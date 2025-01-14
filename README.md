@@ -26,7 +26,6 @@ TESS-Laboratories:    https://github.com/TESS-Laboratory/chmloader
 Docker is a uniqiue software in that it allows for you to create a containerized fully unbreakable proof since the code is contained with a single image.  
 
 
-... Thinking will add more later
 <h2>References</h2>
 
 <p>Tolan, Jamie, Camille Couprie, John Brandt, Justine Spore, Tobias Tiecke, Tracy Johns, and Patrick Nease. 2024. “Using Artificial Intelligence to Map the Earth’s 
