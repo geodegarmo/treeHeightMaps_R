@@ -28,8 +28,8 @@ Docker is a uniqiue software in that it allows for you to create a containerized
 <h2>Getting Started</h2>
 
 Make a directory and then clone the environment.
-Clone the environment using git.
 
+In Terminal:
 `mkdir globalTreeHeight && git clone https://github.com/geodegarmo/treeHeightMaps_R.git`
 
 
