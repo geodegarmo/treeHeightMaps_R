@@ -1,9 +1,15 @@
-# 1. Packages
-#install.packages("devtools")
-#install.packages("pacman")
+# 1. Packages (Install if not already present)
+if (!require("devtools", quietly = TRUE)) install.packages("devtools")
+if (!require("pacman", quietly = TRUE)) install.packages("pacman")
 
-#devtools::install_github("TESS-Laboratory/chmloader")
-#devtools::install_github("rstudio/leaflet")
+# Install chmloader if not already installed
+if (!require("chmloader", quietly = TRUE)) {
+  devtools::install_github("TESS-Laboratory/chmloader")
+}
+# Install updated leaflet if needed
+if (!require("leaflet", quietly = TRUE)) {
+  devtools::install_github("rstudio/leaflet")
+}
 
 
 pacman::p_load(
