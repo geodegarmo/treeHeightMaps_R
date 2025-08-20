@@ -99,14 +99,22 @@ docker-compose up treeheightmaps
 docker-compose up rstudio
 ```
 
-### Installing Additional Packages
+### Package Installation
 
-To install the `chmloader` package (requires internet connection):
+The example scripts now automatically handle the installation of required packages, including the `chmloader` package from TESS-Laboratory. When you run an example script for the first time, it will automatically:
+
+1. Install `devtools` and `pacman` if not already present
+2. Install the `chmloader` package from GitHub if not already installed
+3. Install an updated version of `leaflet` if needed
+
+**Manual Installation (if needed):**
 ```r
-# Inside the container
+# Inside the container or R session
 install.packages("devtools")
 devtools::install_github("TESS-Laboratory/chmloader")
 ```
+
+**Note:** An internet connection is required for GitHub package installation.
 
 ### Container Commands
 
