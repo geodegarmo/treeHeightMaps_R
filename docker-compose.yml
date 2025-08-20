@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  treeheightmaps:
+    build: .
+    image: treeheightmaps:latest
+    container_name: treeheightmaps_r
+    volumes:
+      - ./data:/app/data        # Mount local data directory
+      - ./output:/app/output    # Mount output directory for results
+    working_dir: /app
+    stdin_open: true
+    tty: true
+    command: R
+    
+  # Alternative service for running with RStudio Server (if desired)
+  rstudio:
+    image: rocker/geospatial:4.2.2
+    container_name: treeheightmaps_rstudio
+    ports:
+      - "8787:8787"
+    environment:
+      - USER=rstudio
+      - PASSWORD=password
+    volumes:
+      - ./:/home/rstudio/treeHeightMaps_R
+    # To use: docker-compose up rstudio, then visit http://localhost:8787
