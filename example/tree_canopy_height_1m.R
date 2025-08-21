@@ -80,7 +80,7 @@ streets <- maptiles::get_tiles(
   provider = "CartoDB.Positron",
   zoom = 15,
   crop = TRUE,
-  project = FALSE
+  # project = FALSE
 )
 
 terra::plotRGB(
